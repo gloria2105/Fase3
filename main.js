@@ -1,3 +1,4 @@
+alert('"Bienvenidos a Pet Pals, aqui encontraras todo para tu mascota"'."Adelante")
 const botonesAgregar = document.querySelectorAll('.agregar-carrito');
 const notificacionAgregado = document.getElementById('notificacion-agregado');
 const listaCarrito = document.getElementById('lista-carrito');
