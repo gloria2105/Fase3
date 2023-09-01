@@ -1,1 +1,1 @@
-alert("Bienvenidos")
+alert("¡Hola! Bienvenidos a PET PALS");
