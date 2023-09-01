@@ -7,16 +7,17 @@
     <link rel="shortcut icon" href="My project-1.png" type="image/x-icon"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-     <script src="main2.js"></script>
+    <script src="main2.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>PET PALS</title>
 </head>
 <body>
-    <script src="main2.js"></script>
+   
     <div id="General">
         <div id="Encabezado">
-           <div id="Logo"><img src="My project-1.png" alt="Logo" class="img-logo" data-aos="flip-left"></div>
+            <div id="Logo"><img src="My project-1.png" alt="Logo" class="img-logo" data-aos="flip-left"></div>
             <div id="Titulo" data-aos="fade-up" data-aos-duration="3000"><strong>PET PALS</strong></div>
+        
             <input type="text" placeholder="Buscar" class="buscador">
             <div id="Menu">
                 <ul>
@@ -31,6 +32,8 @@
 
         </div>
         <div id="NuevoMenu">
+            
+              
             <div class="btn-group" role="group">
                 <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="index2.html">
                   Mascotas
@@ -79,7 +82,33 @@
                 </div>
               
         </div>
-           <p>En nuestra tienda encontraras una gran cantidad de productos</p>
+
+        <div id="Contenido">
+            <div id="Informacion"> 
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/IMAGENES/grooming-canino.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="IMAGENES/800_imagen.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="IMAGENES/descarga (23).jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+                </div>
+                <p>En nuestra tienda encontraras una gran cantidad de productos</p>
                 <div id="Cuadros" data-aos="zoom-in">
                     <div class="imagenes-con-texto">
                         <div class="cuadro-verde">
@@ -108,7 +137,7 @@
                     </div>
                 </div>
             </div>
-             
+            
             
         </div>
         <div id="Whatsapp-icon">
@@ -119,9 +148,10 @@
         
         <div id="Pie-pagina">@ 2023 Pet Pals, todos los derechos reservados</div>
     </div>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
        AOS.init();
     </script>
 </body>
 </html>
+
